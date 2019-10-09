@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE configuration      
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"      
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 指明在user这个表中所包含常用sql方法，test/mapper/User.xml是一个指明java方法和sql语法联系的xml文件 -->
+	<mappers>
+		<mapper resource="mapper/LoginRegister.xml" /> <!-- 管理人员映射表，也就是登陆，注册时用的 -->
+		<mapper resource="mapper/Product.xml" /> <!-- 产品映射表，id、name、desc -->
+		<mapper resource="mapper/Staff.xml" /> 	 <!-- 员工管理表，id，name -->
+		<mapper resource="mapper/Contract.xml" />	<!-- 合同管理表，id、name、staff、customer、desc -->
+		<mapper resource="mapper/Customer.xml" />   <!-- 客户管理映射表，id、name -->
+	</mappers>
+</configuration>   
