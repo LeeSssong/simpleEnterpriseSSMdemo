@@ -1,2 +1,2 @@
 # simpleEnterpriseSSMdemo
-origin
+利用Spring SpringMVC MyBatis搭建简单的企业管理后台，实现简单的增删改查
